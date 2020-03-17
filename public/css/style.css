@@ -67,4 +67,16 @@ body {
   }
   p {
     color: #E64A19;
+    font-weight: bold;
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    
+    bottom: 0;
+    width: 100%;
+    
+    background-color: yellow;
+    color:black;
+    text-align: center;
+ }

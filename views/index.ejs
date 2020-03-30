@@ -15,11 +15,39 @@
           <input type="submit" class="ghost-button" value="Get Weather">
         </form>
         <% if(weather !== null){ %>
-          <p><%= weather %></p>
-        <% } %>
-
-        <% if(error !== null){ %>
-          <p><%= error %></p>
+          <p><b>Weather Details</b></p> 
+          <table style="width:100%">
+            <tr>
+              <th><b>Parameter</b></th>
+              <th><b>Value</b></th> 
+              
+            </tr>
+            <tr>
+              <td><b>City Name</b></td>
+              <td><b><%= weather %></b></td>
+              
+            </tr>
+            <tr>
+              <td><b>Country</b></td>
+              <td><b><%= weather1 %></b></td>
+              
+            </tr>
+            <tr>
+              <td><b>Temperature</b></td>
+              <td><b><%= weather2 %></b></td>
+             
+            </tr>
+            <tr>
+              <td><b>Humidity</b></td>
+              <td><b><%= weather3 %></b></td>
+             
+            </tr>
+            <tr>
+              <td><b>Wind Speed</b></td>
+              <td><b><%= weather4 %></b></td>
+              
+            </tr>
+          </table>
         <% } %>
       </fieldset>
     </div>
